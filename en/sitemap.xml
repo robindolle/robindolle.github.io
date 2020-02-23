@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://robindolle.be/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://robindolle.be/nl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://robindolle.be/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://robindolle.be/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://robindolle.be/nl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://robindolle.be/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://robindolle.be/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://robindolle.be/nl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://robindolle.be/tags/"
+                />
+  </url>
+  
+</urlset>
