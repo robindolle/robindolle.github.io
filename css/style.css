@@ -2,16 +2,24 @@ h1 {
     font-weight: normal;
 }
 
+.logo__cursor {
+    background: #1080f2;
+}
+
+.typewrite {
+    border-right: 0.08em solid #222;
+}
+
+.dark-theme .typewrite {
+    border-right-color: #a9a9b3;
+}
+
 .dark-theme .brand-logo text {
     fill: #a9a9b3;
 }
 
 .dark-theme .brand-logo circle {
     stroke: #a9a9b3;
-}
-
-.logo__cursor {
-    background: #1080f2;
 }
 
 @media (max-width: 684px) {
