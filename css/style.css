@@ -10,15 +10,15 @@ h1 {
     border-right: 0.08em solid #222;
 }
 
-.dark-theme .typewrite {
+html[dark-theme~="dark"] .typewrite {
     border-right-color: #a9a9b3;
 }
 
-.dark-theme .brand-logo text {
+html[dark-theme~="dark"] .brand-logo text {
     fill: #a9a9b3;
 }
 
-.dark-theme .brand-logo circle {
+html[dark-theme~="dark"] .brand-logo circle {
     stroke: #a9a9b3;
 }
 

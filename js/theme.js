@@ -1,21 +1,20 @@
 // Media query event handler
 
-if (matchMedia) {
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    mediaQuery.addListener(colorSchemeChange);
-    colorSchemeChange(mediaQuery);
+if (window.matchMedia) {
+    var mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    mediaQuery.addEventListener('change', updateColorScheme);
+
+    updateColorScheme(mediaQuery);
 }
 
-function colorSchemeChange(mediaQuery) {
+function updateColorScheme(mediaQuery) {
+    var colorScheme = "light";
     if (window.localStorage && window.localStorage.getItem("theme")) {
-        return;
+        colorScheme = window.localStorage.getItem("theme");
+    } else if (mediaQuery.matches) {
+        colorScheme = "dark";
     }
 
-    var isDark = false;
-    if (mediaQuery.matches) {
-        var isDark = true;
-    }
-
-    document.body.classList.toggle("dark-theme", isDark);
-    isDark ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");
+    var html = document.querySelector("html")
+    html.setAttribute("dark-theme", colorScheme);
 }

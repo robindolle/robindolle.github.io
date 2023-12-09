@@ -1,47 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://robindolle.be/nl/categories/</loc>
+    <loc>https://robindolle.be/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://robindolle.be/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
                 href="https://robindolle.be/categories/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://robindolle.be/nl/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://robindolle.be/nl/</loc>
+  </url><url>
+    <loc>https://robindolle.be/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://robindolle.be/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
                 href="https://robindolle.be/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://robindolle.be/nl/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://robindolle.be/nl/tags/</loc>
+  </url><url>
+    <loc>https://robindolle.be/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://robindolle.be/tags/"
+                href="https://robindolle.be/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://robindolle.be/nl/tags/"
+                href="https://robindolle.be/tags/"
                 />
   </url>
-  
 </urlset>

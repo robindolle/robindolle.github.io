@@ -5,10 +5,7 @@
     <link>https://robindolle.be/tags/</link>
     <description>Recent content in Tags on Robin Dollé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://robindolle.be/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>nl</language>
+    <atom:link href="https://robindolle.be/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

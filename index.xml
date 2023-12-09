@@ -5,10 +5,7 @@
     <link>https://robindolle.be/</link>
     <description>Recent content on Robin Dollé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://robindolle.be/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>nl</language>
+    <atom:link href="https://robindolle.be/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
